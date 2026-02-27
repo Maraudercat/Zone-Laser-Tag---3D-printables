@@ -4,7 +4,7 @@ $fn=50;
 
 module mazebase(){
 union(){
-translate([0,10,0])linear_extrude(height=mh){import("C:/Users/Phoen/Documents/Laser tag/2026/2026 maze map.svg");
+translate([0,10,0])linear_extrude(height=mh){import("C:/Users/Phoen/Documents/Laser tag/2026/Silverdale 2026 maze map.svg");
 }
 minkowski(){
 cube([270,215,bh]);
@@ -18,6 +18,8 @@ text("SILVERDALE ZLTAC 2026", size = 10);}
 }
 
 ///*
+
+module fullmaze(){
 
 difference(){
 
@@ -51,7 +53,9 @@ cube([12,10.7,22]);
 translate([0,0,10.7])rotate([90,90,90])linear_extrude(height = .67*mh){polygon([[0,0],[10.6,0],[10.6,3]]);}}
 
 }
+}
 
+scale([0.4,0.4,0.4])fullmaze();
 
 //*/
 
