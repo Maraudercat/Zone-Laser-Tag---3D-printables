@@ -12,7 +12,7 @@ ___
  
 
 ### Other 3D maze maps
-#### 1. Canberra 2025 maze
+#### 1. Canberra 2025 maze (probably has a few walls slightly wrong)
 * Canberra map - 2025.STL is a full size maze map that fits on a 250x210x210 printer bed. May need to be rotated for fit. Printed well in PLA at 0.2 mm.
 * Canberra map - small-2025.STL is a hand-sized maze map. Prints ok in PLA at 0.2 mm.
 * Canberra map - 2025 OpenSCAD file if a new or modified version of the .STL is needed. Scale function in the last row of code can be used to resize.
